@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: #252A36;
     background-image: url("/sources/images/background.png");
@@ -66,16 +70,19 @@ nav img{
     margin:10px;
     margin-left: 4%;
 }
+
 .desc-box{
    position: relative;
    color: white;
-   z-index: -1; 
+   z-index: 2; 
 }
+
 .desc-box h1{
     font-size: 70px;
     font-weight: bold;
     color: #6C9EFF;
 }
+
 .desc-box span{
     color: #ffffff;
 }
